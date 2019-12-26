@@ -16,6 +16,8 @@
 		C8A4F3E823B4DD3B003A3F54 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4F3E323B4DD3B003A3F54 /* UIBarButtonItem-Extension.swift */; };
 		C8A4F3E923B4DD3B003A3F54 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4F3E423B4DD3B003A3F54 /* NSDate-Extension.swift */; };
 		C8A4F3EA23B4DD3B003A3F54 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4F3E523B4DD3B003A3F54 /* Common.swift */; };
+		C8A4F42323B4E4C6003A3F54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4F40A23B4E4C6003A3F54 /* HomeViewController.swift */; };
+		C8A4F42823B4EB07003A3F54 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A4F42723B4EB07003A3F54 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C8A4F3E323B4DD3B003A3F54 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		C8A4F3E423B4DD3B003A3F54 /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		C8A4F3E523B4DD3B003A3F54 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C8A4F40A23B4E4C6003A3F54 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C8A4F42723B4EB07003A3F54 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				C83868DA23B4CE5F0008771F /* SceneDelegate.swift */,
 				C8A4F3DE23B4DD3B003A3F54 /* Classes */,
 				C83868E123B4CE600008771F /* Assets.xcassets */,
+				C8A4F42723B4EB07003A3F54 /* Launch Screen.storyboard */,
 				C83868E623B4CE600008771F /* Info.plist */,
 			);
 			path = DYZB;
@@ -87,6 +92,12 @@
 		C8A4F3DE23B4DD3B003A3F54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C8A4F3F023B4E49B003A3F54 /* Main */,
+				C8A4F3EF23B4E49B003A3F54 /* Room */,
+				C8A4F3EB23B4E420003A3F54 /* Follow */,
+				C8A4F3ED23B4E420003A3F54 /* Home */,
+				C8A4F3EE23B4E420003A3F54 /* Live */,
+				C8A4F3EC23B4E420003A3F54 /* Profile */,
 				C8A4F3DF23B4DD3B003A3F54 /* Tools */,
 			);
 			path = Classes;
@@ -110,6 +121,81 @@
 				C8A4F3E423B4DD3B003A3F54 /* NSDate-Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		C8A4F3EB23B4E420003A3F54 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		C8A4F3EC23B4E420003A3F54 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C8A4F3ED23B4E420003A3F54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4F40823B4E4C6003A3F54 /* Controller */,
+				C8A4F3F623B4E4C6003A3F54 /* Model */,
+				C8A4F3F923B4E4C6003A3F54 /* View */,
+				C8A4F3F123B4E4C6003A3F54 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C8A4F3EE23B4E420003A3F54 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		C8A4F3EF23B4E49B003A3F54 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		C8A4F3F023B4E49B003A3F54 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C8A4F3F123B4E4C6003A3F54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C8A4F3F623B4E4C6003A3F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8A4F3F923B4E4C6003A3F54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8A4F40823B4E4C6003A3F54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4F40A23B4E4C6003A3F54 /* HomeViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F5EF8E6000ACA73E8202E342 /* Pods */ = {
@@ -181,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A4F42823B4EB07003A3F54 /* Launch Screen.storyboard in Resources */,
 				C83868E223B4CE600008771F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +324,7 @@
 				C8A4F3E823B4DD3B003A3F54 /* UIBarButtonItem-Extension.swift in Sources */,
 				C83868D923B4CE5F0008771F /* AppDelegate.swift in Sources */,
 				C8A4F3E723B4DD3B003A3F54 /* UIColor-Extension.swift in Sources */,
+				C8A4F42323B4E4C6003A3F54 /* HomeViewController.swift in Sources */,
 				C83868DB23B4CE5F0008771F /* SceneDelegate.swift in Sources */,
 				C8A4F3E923B4DD3B003A3F54 /* NSDate-Extension.swift in Sources */,
 				C8A4F3E623B4DD3B003A3F54 /* NetworkTools.swift in Sources */,
@@ -366,6 +454,7 @@
 			baseConfigurationReference = 9730037FD18869A8ABE6AED2 /* Pods-DYZB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,6 +473,7 @@
 			baseConfigurationReference = 2C610FF16B94761B2A15A319 /* Pods-DYZB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
