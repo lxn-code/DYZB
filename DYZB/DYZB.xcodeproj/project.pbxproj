@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60666263BB6B6C6D2A9E35B7 /* Pods_DYZB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B998DC42EE40311D6416FC3 /* Pods_DYZB.framework */; };
+		C8135B9A23B5EFA3001C3E17 /* DYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8135B9923B5EFA3001C3E17 /* DYTabBarController.swift */; };
 		C83868D923B4CE5F0008771F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83868D823B4CE5F0008771F /* AppDelegate.swift */; };
 		C83868DB23B4CE5F0008771F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83868DA23B4CE5F0008771F /* SceneDelegate.swift */; };
 		C83868E223B4CE600008771F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83868E123B4CE600008771F /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		2C610FF16B94761B2A15A319 /* Pods-DYZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.release.xcconfig"; path = "Target Support Files/Pods-DYZB/Pods-DYZB.release.xcconfig"; sourceTree = "<group>"; };
 		4B998DC42EE40311D6416FC3 /* Pods_DYZB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYZB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9730037FD18869A8ABE6AED2 /* Pods-DYZB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYZB.debug.xcconfig"; path = "Target Support Files/Pods-DYZB/Pods-DYZB.debug.xcconfig"; sourceTree = "<group>"; };
+		C8135B9923B5EFA3001C3E17 /* DYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTabBarController.swift; sourceTree = "<group>"; };
 		C83868D523B4CE5F0008771F /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83868D823B4CE5F0008771F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C83868DA23B4CE5F0008771F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 		C8A4F3F023B4E49B003A3F54 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C8135B9923B5EFA3001C3E17 /* DYTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A4F3E823B4DD3B003A3F54 /* UIBarButtonItem-Extension.swift in Sources */,
+				C8135B9A23B5EFA3001C3E17 /* DYTabBarController.swift in Sources */,
 				C83868D923B4CE5F0008771F /* AppDelegate.swift in Sources */,
 				C8A4F3E723B4DD3B003A3F54 /* UIColor-Extension.swift in Sources */,
 				C8A4F42323B4E4C6003A3F54 /* HomeViewController.swift in Sources */,
